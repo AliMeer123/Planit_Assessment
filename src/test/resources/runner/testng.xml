@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Planit_Smoke">
+
+
+	<listeners>
+
+		<listener class-name="listeners.CustomListeners"></listener>
+
+		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+
+
+	</listeners>
+
+
+	<test name="Validate Login Test">
+
+		<parameter name="username" value="planittest78@gmail.com"></parameter>
+		<parameter name="password" value="123456"></parameter>
+
+		<classes>
+			<class name="testcases.ValidateLogin" />
+
+		</classes>
+	</test>
+
+	<test name="Shopping Cart Test">
+		<classes>
+			<class name="testcases.ValidateShoppingCart" />
+		</classes>
+	</test>
+
+	<test name="Validate productPage Test">
+
+		<parameter name="qty" value="0"></parameter>
+		<classes>
+			<class name="testcases.ValidateProduct" />
+
+		</classes>
+	</test>
+
+	<test name="Validate CheckOut Test">
+
+		<parameter name="value" value="New Address"></parameter>
+		<parameter name="country" value="India"></parameter>
+		<parameter name="city" value="Delhi"></parameter>
+		<parameter name="address_1" value="Delhi_06"></parameter>
+		<parameter name="zipCode" value="110025"></parameter>
+		<parameter name="phoneNum" value="1232165500"></parameter>
+		<parameter name="shippingAddress"
+			value="planit test, Delhi_06, Delhi 110025, India"></parameter>
+		<classes>
+			<class name="testcases.CheckOutPage" />
+
+		</classes>
+	</test>
+
+	<!-- <test name="Landing Page Test"> <classes> <class name="testcases.ValidateLandingPage" 
+		/> </classes> </test> -->
+
+</suite>
