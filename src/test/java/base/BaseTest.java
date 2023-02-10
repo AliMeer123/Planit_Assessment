@@ -22,9 +22,8 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import utilities.DbManager;
 import utilities.ExcelReader;
-import utilities.MonitoringMail;
+
 
 public class BaseTest {
 
