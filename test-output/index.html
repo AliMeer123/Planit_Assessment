@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 9 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Planit_Smoke" class="navigator-link">
+              <span class="suite-name border-failed">Planit_Smoke</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Planit_Smoke" class="navigator-link ">
+                    <span>D:\Projects\Planit\src\test\resources\runner\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Planit_Smoke" class="navigator-link ">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Planit_Smoke" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Planit_Smoke" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Planit_Smoke" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Planit_Smoke" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Planit_Smoke" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">19 methods, 9 failed,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Planit_Smoke" class="hide-methods failed suite-Planit_Smoke"> (hide)</a> <!-- hide-methods failed suite-Planit_Smoke -->
+                      <a href="#" panel-name="suite-Planit_Smoke" class="show-methods failed suite-Planit_Smoke"> (show)</a> <!-- show-methods failed suite-Planit_Smoke -->
+                    </span>
+                    <div class="method-list-content failed suite-Planit_Smoke">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Planit_Smoke" title="testcases.ValidateProduct" class="method navigator-link" hash-for-method="CheckingCheckBoxAndCheckOut">CheckingCheckBoxAndCheckOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Planit_Smoke" title="testcases.CheckOutPage" class="method navigator-link" hash-for-method="confirmOrder">confirmOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Planit_Smoke" title="testcases.CheckOutPage" class="method navigator-link" hash-for-method="enteringBillingAddressDetails(India, Delhi, Delhi_06, 110025, 1232165500)">enteringBillingAddressDetails(India, Delhi, Delhi_06, 110025, 1232165500)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Planit_Smoke" title="testcases.ValidateProduct" class="method navigator-link" hash-for-method="getProductInfo">getProductInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Planit_Smoke" title="testcases.CheckOutPage" class="method navigator-link" hash-for-method="paymentMethod">paymentMethod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Planit_Smoke" title="testcases.CheckOutPage" class="method navigator-link" hash-for-method="selectingBillingAddress(New Address)">selectingBillingAddress(New Address)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Planit_Smoke" title="testcases.CheckOutPage" class="method navigator-link" hash-for-method="selectingShippingAdd(planit test, Delhi_06, Delhi 110025, India)">selectingShippingAdd(planit test, Delhi_06, Delhi 110025, India)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Planit_Smoke" title="testcases.CheckOutPage" class="method navigator-link" hash-for-method="shippingMethod">shippingMethod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Planit_Smoke" title="testcases.CheckOutPage" class="method navigator-link" hash-for-method="validatePaymentMsg">validatePaymentMsg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Planit_Smoke -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Planit_Smoke" class="hide-methods passed suite-Planit_Smoke"> (hide)</a> <!-- hide-methods passed suite-Planit_Smoke -->
+                      <a href="#" panel-name="suite-Planit_Smoke" class="show-methods passed suite-Planit_Smoke"> (show)</a> <!-- show-methods passed suite-Planit_Smoke -->
+                    </span>
+                    <div class="method-list-content passed suite-Planit_Smoke">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Planit_Smoke" title="testcases.ValidateProduct" class="method navigator-link" hash-for-method="addToCart">addToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Planit_Smoke" title="testcases.ValidateShoppingCart" class="method navigator-link" hash-for-method="checkEmptyCart">checkEmptyCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Planit_Smoke" title="testcases.ValidateLogin" class="method navigator-link" hash-for-method="clickOnLogin">clickOnLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Planit_Smoke" title="testcases.ValidateProduct" class="method navigator-link" hash-for-method="clickingAndValidatingCartTotal">clickingAndValidatingCartTotal</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Planit_Smoke" title="testcases.CheckOutPage" class="method navigator-link" hash-for-method="doLogOut">doLogOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Planit_Smoke" title="testcases.ValidateLogin" class="method navigator-link" hash-for-method="doLogin(planittest78@gmail.com, 123456)">doLogin(planittest78@gmail.com, 123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Planit_Smoke" title="testcases.ValidateProduct" class="method navigator-link" hash-for-method="enterQuantity(0)">enterQuantity(0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Planit_Smoke" title="testcases.ValidateShoppingCart" class="method navigator-link" hash-for-method="selectingProduct">selectingProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Planit_Smoke" title="testcases.ValidateLogin" class="method navigator-link" hash-for-method="validateUsername(planittest78@gmail.com)">validateUsername(planittest78@gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Planit_Smoke" title="testcases.ValidateProduct" class="method navigator-link" hash-for-method="validatingMessage">validatingMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Planit_Smoke -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Planit_Smoke" class="panel Planit_Smoke">
+          <div class="suite-Planit_Smoke-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.ValidateProduct</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckingCheckBoxAndCheckOut">
+                  </a> <!-- CheckingCheckBoxAndCheckOut -->
+                  <span class="method-name">CheckingCheckBoxAndCheckOut</span>
+                  <div class="stack-trace">java.lang.AssertionError: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;termsofservice&apos;]&quot;}
+  (Session info: chrome=109.0.5414.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SAYYED-ZUBAIR-A&apos;, ip: &apos;192.168.120.18&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\SYEDZU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 503b1dd8510d9904d56314b9eeee75d9
+*** Element info: {Using=xpath, value=//input[@id=&apos;termsofservice&apos;]}
+	at base.BaseTest.click(BaseTest.java:69)
+	at testcases.ValidateProduct.CheckingCheckBoxAndCheckOut(ValidateProduct.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getProductInfo">
+                  </a> <!-- getProductInfo -->
+                  <span class="method-name">getProductInfo</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class = &apos;product-unit-price&apos;]&quot;}
+  (Session info: chrome=109.0.5414.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SAYYED-ZUBAIR-A&apos;, ip: &apos;192.168.120.18&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\SYEDZU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 503b1dd8510d9904d56314b9eeee75d9
+*** Element info: {Using=xpath, value=//span[@class = &apos;product-unit-price&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at testcases.ValidateProduct.getProductInfo(ValidateProduct.java:36)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Planit_Smoke-class-failed -->
+          <div class="suite-Planit_Smoke-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.CheckOutPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="confirmOrder">
+                  </a> <!-- confirmOrder -->
+                  <span class="method-name">confirmOrder</span>
+                  <div class="stack-trace">java.lang.AssertionError: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@value = &apos;Confirm&apos;]&quot;}
+  (Session info: chrome=109.0.5414.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SAYYED-ZUBAIR-A&apos;, ip: &apos;192.168.120.18&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\SYEDZU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 503b1dd8510d9904d56314b9eeee75d9
+*** Element info: {Using=xpath, value=//input[@value = &apos;Confirm&apos;]}
+	at base.BaseTest.click(BaseTest.java:69)
+	at testcases.CheckOutPage.confirmOrder(CheckOutPage.java:62)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enteringBillingAddressDetails(India, Delhi, Delhi_06, 110025, 1232165500)">
+                  </a> <!-- enteringBillingAddressDetails(India, Delhi, Delhi_06, 110025, 1232165500) -->
+                  <span class="method-name">enteringBillingAddressDetails</span>
+                  <span class="parameters">(India, Delhi, Delhi_06, 110025, 1232165500)</span>
+                  <div class="stack-trace">java.lang.AssertionError: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//select[@id=&quot;BillingNewAddress_CountryId&quot;]&quot;}
+  (Session info: chrome=109.0.5414.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SAYYED-ZUBAIR-A&apos;, ip: &apos;192.168.120.18&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\SYEDZU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 503b1dd8510d9904d56314b9eeee75d9
+*** Element info: {Using=xpath, value=//select[@id=&quot;BillingNewAddress_CountryId&quot;]}
+	at base.BaseTest.select(BaseTest.java:88)
+	at testcases.CheckOutPage.enteringBillingAddressDetails(CheckOutPage.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="paymentMethod">
+                  </a> <!-- paymentMethod -->
+                  <span class="method-name">paymentMethod</span>
+                  <div class="stack-trace">java.lang.AssertionError: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@value = &apos;Payments.CashOnDelivery&apos;]&quot;}
+  (Session info: chrome=109.0.5414.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SAYYED-ZUBAIR-A&apos;, ip: &apos;192.168.120.18&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\SYEDZU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 503b1dd8510d9904d56314b9eeee75d9
+*** Element info: {Using=xpath, value=//input[@value = &apos;Payments.CashOnDelivery&apos;]}
+	at base.BaseTest.click(BaseTest.java:69)
+	at testcases.CheckOutPage.paymentMethod(CheckOutPage.java:49)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectingBillingAddress(New Address)">
+                  </a> <!-- selectingBillingAddress(New Address) -->
+                  <span class="method-name">selectingBillingAddress</span>
+                  <span class="parameters">(New Address)</span>
+                  <div class="stack-trace">java.lang.AssertionError: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//select[@id=&apos;billing-address-select&apos;]&quot;}
+  (Session info: chrome=109.0.5414.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SAYYED-ZUBAIR-A&apos;, ip: &apos;192.168.120.18&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\SYEDZU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 503b1dd8510d9904d56314b9eeee75d9
+*** Element info: {Using=xpath, value=//select[@id=&apos;billing-address-select&apos;]}
+	at base.BaseTest.select(BaseTest.java:88)
+	at testcases.CheckOutPage.selectingBillingAddress(CheckOutPage.java:16)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectingShippingAdd(planit test, Delhi_06, Delhi 110025, India)">
+                  </a> <!-- selectingShippingAdd(planit test, Delhi_06, Delhi 110025, India) -->
+                  <span class="method-name">selectingShippingAdd</span>
+                  <span class="parameters">(planit test, Delhi_06, Delhi 110025, India)</span>
+                  <div class="stack-trace">java.lang.AssertionError: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#shipping\-address\-select&quot;}
+  (Session info: chrome=109.0.5414.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SAYYED-ZUBAIR-A&apos;, ip: &apos;192.168.120.18&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\SYEDZU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 503b1dd8510d9904d56314b9eeee75d9
+*** Element info: {Using=id, value=shipping-address-select}
+	at base.BaseTest.select(BaseTest.java:88)
+	at testcases.CheckOutPage.selectingShippingAdd(CheckOutPage.java:36)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shippingMethod">
+                  </a> <!-- shippingMethod -->
+                  <span class="method-name">shippingMethod</span>
+                  <div class="stack-trace">java.lang.AssertionError: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@value = &apos;Next Day Air___Shipping.FixedRate&apos;]&quot;}
+  (Session info: chrome=109.0.5414.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SAYYED-ZUBAIR-A&apos;, ip: &apos;192.168.120.18&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\SYEDZU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 503b1dd8510d9904d56314b9eeee75d9
+*** Element info: {Using=xpath, value=//input[@value = &apos;Next Day Air___Shipping.FixedRate&apos;]}
+	at base.BaseTest.click(BaseTest.java:69)
+	at testcases.CheckOutPage.shippingMethod(CheckOutPage.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatePaymentMsg">
+                  </a> <!-- validatePaymentMsg -->
+                  <span class="method-name">validatePaymentMsg</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at testcases.CheckOutPage.validatePaymentMsg(CheckOutPage.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Planit_Smoke-class-failed -->
+          <div class="suite-Planit_Smoke-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.ValidateLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnLogin">
+                  </a> <!-- clickOnLogin -->
+                  <span class="method-name">clickOnLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLogin(planittest78@gmail.com, 123456)">
+                  </a> <!-- doLogin(planittest78@gmail.com, 123456) -->
+                  <span class="method-name">doLogin</span>
+                  <span class="parameters">(planittest78@gmail.com, 123456)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUsername(planittest78@gmail.com)">
+                  </a> <!-- validateUsername(planittest78@gmail.com) -->
+                  <span class="method-name">validateUsername</span>
+                  <span class="parameters">(planittest78@gmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Planit_Smoke-class-passed -->
+          <div class="suite-Planit_Smoke-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.ValidateProduct</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addToCart">
+                  </a> <!-- addToCart -->
+                  <span class="method-name">addToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickingAndValidatingCartTotal">
+                  </a> <!-- clickingAndValidatingCartTotal -->
+                  <span class="method-name">clickingAndValidatingCartTotal</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterQuantity(0)">
+                  </a> <!-- enterQuantity(0) -->
+                  <span class="method-name">enterQuantity</span>
+                  <span class="parameters">(0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatingMessage">
+                  </a> <!-- validatingMessage -->
+                  <span class="method-name">validatingMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Planit_Smoke-class-passed -->
+          <div class="suite-Planit_Smoke-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.CheckOutPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLogOut">
+                  </a> <!-- doLogOut -->
+                  <span class="method-name">doLogOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Planit_Smoke-class-passed -->
+          <div class="suite-Planit_Smoke-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.ValidateShoppingCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkEmptyCart">
+                  </a> <!-- checkEmptyCart -->
+                  <span class="method-name">checkEmptyCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectingProduct">
+                  </a> <!-- selectingProduct -->
+                  <span class="method-name">selectingProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Planit_Smoke-class-passed -->
+        </div> <!-- panel Planit_Smoke -->
+        <div panel-name="test-xml-Planit_Smoke" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Projects\Planit\src\test\resources\runner\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Planit_Smoke&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listeners.CustomListeners&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Validate Login Test&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;123456&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;planittest78@gmail.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.ValidateLogin&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Validate Login Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Shopping Cart Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.ValidateShoppingCart&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Shopping Cart Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Validate productPage Test&quot;&gt;
+    &lt;parameter name=&quot;qty&quot; value=&quot;0&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.ValidateProduct&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Validate productPage Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Validate CheckOut Test&quot;&gt;
+    &lt;parameter name=&quot;country&quot; value=&quot;India&quot;/&gt;
+    &lt;parameter name=&quot;zipCode&quot; value=&quot;110025&quot;/&gt;
+    &lt;parameter name=&quot;city&quot; value=&quot;Delhi&quot;/&gt;
+    &lt;parameter name=&quot;address_1&quot; value=&quot;Delhi_06&quot;/&gt;
+    &lt;parameter name=&quot;shippingAddress&quot; value=&quot;planit test, Delhi_06, Delhi 110025, India&quot;/&gt;
+    &lt;parameter name=&quot;phoneNum&quot; value=&quot;1232165500&quot;/&gt;
+    &lt;parameter name=&quot;value&quot; value=&quot;New Address&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.CheckOutPage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Validate CheckOut Test --&gt;
+&lt;/suite&gt; &lt;!-- Planit_Smoke --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Planit_Smoke" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Planit_Smoke</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Validate Login Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Shopping Cart Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Validate productPage Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Validate CheckOut Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Planit_Smoke" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Planit_Smoke</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Planit_Smoke" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Planit_Smoke</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Planit_Smoke');
+function tableData_Planit_Smoke() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(19);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'confirmOrder')
+data.setCell(0, 2, 'testcases.CheckOutPage')
+data.setCell(0, 3, 10067);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'enteringBillingAddressDetails')
+data.setCell(1, 2, 'testcases.CheckOutPage')
+data.setCell(1, 3, 10054);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'selectingShippingAdd')
+data.setCell(2, 2, 'testcases.CheckOutPage')
+data.setCell(2, 3, 10051);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'selectingBillingAddress')
+data.setCell(3, 2, 'testcases.CheckOutPage')
+data.setCell(3, 3, 10045);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'CheckingCheckBoxAndCheckOut')
+data.setCell(4, 2, 'testcases.ValidateProduct')
+data.setCell(4, 3, 10037);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validatePaymentMsg')
+data.setCell(5, 2, 'testcases.CheckOutPage')
+data.setCell(5, 3, 10032);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'getProductInfo')
+data.setCell(6, 2, 'testcases.ValidateProduct')
+data.setCell(6, 3, 10022);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'shippingMethod')
+data.setCell(7, 2, 'testcases.CheckOutPage')
+data.setCell(7, 3, 10021);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'paymentMethod')
+data.setCell(8, 2, 'testcases.CheckOutPage')
+data.setCell(8, 3, 10009);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'clickingAndValidatingCartTotal')
+data.setCell(9, 2, 'testcases.ValidateProduct')
+data.setCell(9, 3, 5007);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'checkEmptyCart')
+data.setCell(10, 2, 'testcases.ValidateShoppingCart')
+data.setCell(10, 3, 3451);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'selectingProduct')
+data.setCell(11, 2, 'testcases.ValidateShoppingCart')
+data.setCell(11, 3, 2042);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'doLogOut')
+data.setCell(12, 2, 'testcases.CheckOutPage')
+data.setCell(12, 3, 1721);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'doLogin')
+data.setCell(13, 2, 'testcases.ValidateLogin')
+data.setCell(13, 3, 1061);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'clickOnLogin')
+data.setCell(14, 2, 'testcases.ValidateLogin')
+data.setCell(14, 3, 654);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'validatingMessage')
+data.setCell(15, 2, 'testcases.ValidateProduct')
+data.setCell(15, 3, 329);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'enterQuantity')
+data.setCell(16, 2, 'testcases.ValidateProduct')
+data.setCell(16, 3, 55);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'addToCart')
+data.setCell(17, 2, 'testcases.ValidateProduct')
+data.setCell(17, 3, 53);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'validateUsername')
+data.setCell(18, 2, 'testcases.ValidateLogin')
+data.setCell(18, 3, 33);
+window.suiteTableData['Planit_Smoke']= { tableData: data, tableDiv: 'times-div-Planit_Smoke'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Planit_Smoke">
+              </div> <!-- times-div-Planit_Smoke -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Planit_Smoke" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Planit_Smoke</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">CheckingCheckBoxAndCheckOut</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a href=Fri_Feb_10_12_06_18_IST_2023.jpg target="_blank">Screenshot link</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a href=Fri_Feb_10_12_06_18_IST_2023.jpg target="_blank"><img src=Fri_Feb_10_12_06_18_IST_2023.jpg height=200 width=200></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">getProductInfo</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a href=Fri_Feb_10_12_06_08_IST_2023.jpg target="_blank">Screenshot link</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a href=Fri_Feb_10_12_06_08_IST_2023.jpg target="_blank"><img src=Fri_Feb_10_12_06_08_IST_2023.jpg height=200 width=200></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">selectingBillingAddress(New Address)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a href=Fri_Feb_10_12_06_28_IST_2023.jpg target="_blank">Screenshot link</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a href=Fri_Feb_10_12_06_28_IST_2023.jpg target="_blank"><img src=Fri_Feb_10_12_06_28_IST_2023.jpg height=200 width=200></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">enteringBillingAddressDetails(India, Delhi, Delhi_06, 110025, 1232165500)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a href=Fri_Feb_10_12_06_39_IST_2023.jpg target="_blank">Screenshot link</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a href=Fri_Feb_10_12_06_39_IST_2023.jpg target="_blank"><img src=Fri_Feb_10_12_06_39_IST_2023.jpg height=200 width=200></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">selectingShippingAdd(planit test, Delhi_06, Delhi 110025, India)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a href=Fri_Feb_10_12_06_49_IST_2023.jpg target="_blank">Screenshot link</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a href=Fri_Feb_10_12_06_49_IST_2023.jpg target="_blank"><img src=Fri_Feb_10_12_06_49_IST_2023.jpg height=200 width=200></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">shippingMethod</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a href=Fri_Feb_10_12_06_59_IST_2023.jpg target="_blank">Screenshot link</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a href=Fri_Feb_10_12_06_59_IST_2023.jpg target="_blank"><img src=Fri_Feb_10_12_06_59_IST_2023.jpg height=200 width=200></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">paymentMethod</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a href=Fri_Feb_10_12_07_09_IST_2023.jpg target="_blank">Screenshot link</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a href=Fri_Feb_10_12_07_09_IST_2023.jpg target="_blank"><img src=Fri_Feb_10_12_07_09_IST_2023.jpg height=200 width=200></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">confirmOrder</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a href=Fri_Feb_10_12_07_30_IST_2023.jpg target="_blank">Screenshot link</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a href=Fri_Feb_10_12_07_30_IST_2023.jpg target="_blank"><img src=Fri_Feb_10_12_07_30_IST_2023.jpg height=200 width=200></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validatePaymentMsg</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a href=Fri_Feb_10_12_07_19_IST_2023.jpg target="_blank">Screenshot link</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a href=Fri_Feb_10_12_07_19_IST_2023.jpg target="_blank"><img src=Fri_Feb_10_12_07_19_IST_2023.jpg height=200 width=200></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Planit_Smoke" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Planit_Smoke" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.CheckOutPage</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.ValidateLogin</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">clickOnLogin</span>
+                <span class="method-start">8009 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">doLogin(planittest78@gmail.com, 123456)</span>
+                <span class="method-start">8669 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateUsername(planittest78@gmail.com)</span>
+                <span class="method-start">9731 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.ValidateShoppingCart</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkEmptyCart</span>
+                <span class="method-start">9780 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectingProduct</span>
+                <span class="method-start">13232 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.ValidateProduct</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">enterQuantity(0)</span>
+                <span class="method-start">15284 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addToCart</span>
+                <span class="method-start">15340 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validatingMessage</span>
+                <span class="method-start">15394 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickingAndValidatingCartTotal</span>
+                <span class="method-start">15724 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getProductInfo</span>
+                <span class="method-start">20732 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CheckingCheckBoxAndCheckOut</span>
+                <span class="method-start">30955 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.CheckOutPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">selectingBillingAddress(New Address)</span>
+                <span class="method-start">41167 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">enteringBillingAddressDetails(India, Delhi, Delhi_06, 110025, 1232165500)</span>
+                <span class="method-start">51388 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">selectingShippingAdd(planit test, Delhi_06, Delhi 110025, India)</span>
+                <span class="method-start">61618 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">shippingMethod</span>
+                <span class="method-start">71825 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">paymentMethod</span>
+                <span class="method-start">82016 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validatePaymentMsg</span>
+                <span class="method-start">92183 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">confirmOrder</span>
+                <span class="method-start">102388 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">doLogOut</span>
+                <span class="method-start">112629 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">114370 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

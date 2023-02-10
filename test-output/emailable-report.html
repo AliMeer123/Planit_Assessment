@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Planit_Smoke</th></tr>
+<tr><td><a href="#t0">Validate Login Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">1,775</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Shopping Cart Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">5,497</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Validate productPage Test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">25,871</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">Validate CheckOut Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">7</td><td class="num">73,187</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">10</th><th class="num">0</th><th class="num">0</th><th class="num attn">9</th><th class="num">106,330</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Planit_Smoke</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Validate Login Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">testcases.ValidateLogin</td><td><a href="#m0">clickOnLogin</a></td><td rowspan="1">1676010945663</td><td rowspan="1">654</td></tr><tr class="passedeven"><td><a href="#m1">doLogin</a></td><td rowspan="1">1676010946323</td><td rowspan="1">1061</td></tr><tr class="passedeven"><td><a href="#m2">validateUsername</a></td><td rowspan="1">1676010947385</td><td rowspan="1">33</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Shopping Cart Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">testcases.ValidateShoppingCart</td><td><a href="#m3">checkEmptyCart</a></td><td rowspan="1">1676010947434</td><td rowspan="1">3451</td></tr><tr class="passedeven"><td><a href="#m4">selectingProduct</a></td><td rowspan="1">1676010950886</td><td rowspan="1">2042</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Validate productPage Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">testcases.ValidateProduct</td><td><a href="#m5">CheckingCheckBoxAndCheckOut</a></td><td rowspan="1">1676010968609</td><td rowspan="1">10037</td></tr><tr class="failedeven"><td><a href="#m6">getProductInfo</a></td><td rowspan="1">1676010958386</td><td rowspan="1">10022</td></tr><tr><th colspan="4">Validate productPage Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">testcases.ValidateProduct</td><td><a href="#m7">addToCart</a></td><td rowspan="1">1676010952994</td><td rowspan="1">53</td></tr><tr class="passedeven"><td><a href="#m8">clickingAndValidatingCartTotal</a></td><td rowspan="1">1676010953378</td><td rowspan="1">5007</td></tr><tr class="passedeven"><td><a href="#m9">enterQuantity</a></td><td rowspan="1">1676010952938</td><td rowspan="1">55</td></tr><tr class="passedeven"><td><a href="#m10">validatingMessage</a></td><td rowspan="1">1676010953048</td><td rowspan="1">329</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">Validate CheckOut Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="7">testcases.CheckOutPage</td><td><a href="#m11">confirmOrder</a></td><td rowspan="1">1676011040042</td><td rowspan="1">10067</td></tr><tr class="failedeven"><td><a href="#m12">enteringBillingAddressDetails</a></td><td rowspan="1">1676010989042</td><td rowspan="1">10054</td></tr><tr class="failedeven"><td><a href="#m13">paymentMethod</a></td><td rowspan="1">1676011019670</td><td rowspan="1">10009</td></tr><tr class="failedeven"><td><a href="#m14">selectingBillingAddress</a></td><td rowspan="1">1676010978821</td><td rowspan="1">10045</td></tr><tr class="failedeven"><td><a href="#m15">selectingShippingAdd</a></td><td rowspan="1">1676010999272</td><td rowspan="1">10051</td></tr><tr class="failedeven"><td><a href="#m16">shippingMethod</a></td><td rowspan="1">1676011009479</td><td rowspan="1">10021</td></tr><tr class="failedeven"><td><a href="#m17">validatePaymentMsg</a></td><td rowspan="1">1676011029837</td><td rowspan="1">10032</td></tr><tr><th colspan="4">Validate CheckOut Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testcases.CheckOutPage</td><td><a href="#m18">doLogOut</a></td><td rowspan="1">1676011050283</td><td rowspan="1">1721</td></tr></tbody>
+</table>
+<h2>Validate Login Test</h2><h3 id="m0">testcases.ValidateLogin#clickOnLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testcases.ValidateLogin#doLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>planittest78@gmail.com</td><td>123456</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testcases.ValidateLogin#validateUsername</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>planittest78@gmail.com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Shopping Cart Test</h2><h3 id="m3">testcases.ValidateShoppingCart#checkEmptyCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testcases.ValidateShoppingCart#selectingProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Validate productPage Test</h2><h3 id="m5">testcases.ValidateProduct#CheckingCheckBoxAndCheckOut</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a href=Fri_Feb_10_12_06_18_IST_2023.jpg target="_blank">Screenshot link</a><br/><br><br/><a href=Fri_Feb_10_12_06_18_IST_2023.jpg target="_blank"><img src=Fri_Feb_10_12_06_18_IST_2023.jpg height=200 width=200></a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;termsofservice&apos;]&quot;}
+  (Session info: chrome=109.0.5414.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SAYYED-ZUBAIR-A&apos;, ip: &apos;192.168.120.18&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\SYEDZU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 503b1dd8510d9904d56314b9eeee75d9
+*** Element info: {Using=xpath, value=//input[@id=&apos;termsofservice&apos;]}
+	at base.BaseTest.click(BaseTest.java:69)
+	at testcases.ValidateProduct.CheckingCheckBoxAndCheckOut(ValidateProduct.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testcases.ValidateProduct#getProductInfo</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a href=Fri_Feb_10_12_06_08_IST_2023.jpg target="_blank">Screenshot link</a><br/><br><br/><a href=Fri_Feb_10_12_06_08_IST_2023.jpg target="_blank"><img src=Fri_Feb_10_12_06_08_IST_2023.jpg height=200 width=200></a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class = &apos;product-unit-price&apos;]&quot;}
+  (Session info: chrome=109.0.5414.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SAYYED-ZUBAIR-A&apos;, ip: &apos;192.168.120.18&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\SYEDZU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 503b1dd8510d9904d56314b9eeee75d9
+*** Element info: {Using=xpath, value=//span[@class = &apos;product-unit-price&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at testcases.ValidateProduct.getProductInfo(ValidateProduct.java:36)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">testcases.ValidateProduct#addToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">testcases.ValidateProduct#clickingAndValidatingCartTotal</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">testcases.ValidateProduct#enterQuantity</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">testcases.ValidateProduct#validatingMessage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Validate CheckOut Test</h2><h3 id="m11">testcases.CheckOutPage#confirmOrder</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a href=Fri_Feb_10_12_07_30_IST_2023.jpg target="_blank">Screenshot link</a><br/><br><br/><a href=Fri_Feb_10_12_07_30_IST_2023.jpg target="_blank"><img src=Fri_Feb_10_12_07_30_IST_2023.jpg height=200 width=200></a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@value = &apos;Confirm&apos;]&quot;}
+  (Session info: chrome=109.0.5414.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SAYYED-ZUBAIR-A&apos;, ip: &apos;192.168.120.18&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\SYEDZU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 503b1dd8510d9904d56314b9eeee75d9
+*** Element info: {Using=xpath, value=//input[@value = &apos;Confirm&apos;]}
+	at base.BaseTest.click(BaseTest.java:69)
+	at testcases.CheckOutPage.confirmOrder(CheckOutPage.java:62)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">testcases.CheckOutPage#enteringBillingAddressDetails</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>India</td><td>Delhi</td><td>Delhi_06</td><td>110025</td><td>1232165500</td></tr><tr><th colspan="5">Messages</th></tr><tr><td colspan="5"><div class="messages"><a href=Fri_Feb_10_12_06_39_IST_2023.jpg target="_blank">Screenshot link</a><br/><br><br/><a href=Fri_Feb_10_12_06_39_IST_2023.jpg target="_blank"><img src=Fri_Feb_10_12_06_39_IST_2023.jpg height=200 width=200></a></div></td></tr><tr><th colspan="5">Exception</th></tr><tr><td colspan="5"><div class="stacktrace">java.lang.AssertionError: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//select[@id=&quot;BillingNewAddress_CountryId&quot;]&quot;}
+  (Session info: chrome=109.0.5414.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SAYYED-ZUBAIR-A&apos;, ip: &apos;192.168.120.18&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\SYEDZU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 503b1dd8510d9904d56314b9eeee75d9
+*** Element info: {Using=xpath, value=//select[@id=&quot;BillingNewAddress_CountryId&quot;]}
+	at base.BaseTest.select(BaseTest.java:88)
+	at testcases.CheckOutPage.enteringBillingAddressDetails(CheckOutPage.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">testcases.CheckOutPage#paymentMethod</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a href=Fri_Feb_10_12_07_09_IST_2023.jpg target="_blank">Screenshot link</a><br/><br><br/><a href=Fri_Feb_10_12_07_09_IST_2023.jpg target="_blank"><img src=Fri_Feb_10_12_07_09_IST_2023.jpg height=200 width=200></a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@value = &apos;Payments.CashOnDelivery&apos;]&quot;}
+  (Session info: chrome=109.0.5414.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SAYYED-ZUBAIR-A&apos;, ip: &apos;192.168.120.18&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\SYEDZU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 503b1dd8510d9904d56314b9eeee75d9
+*** Element info: {Using=xpath, value=//input[@value = &apos;Payments.CashOnDelivery&apos;]}
+	at base.BaseTest.click(BaseTest.java:69)
+	at testcases.CheckOutPage.paymentMethod(CheckOutPage.java:49)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">testcases.CheckOutPage#selectingBillingAddress</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>New Address</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages"><a href=Fri_Feb_10_12_06_28_IST_2023.jpg target="_blank">Screenshot link</a><br/><br><br/><a href=Fri_Feb_10_12_06_28_IST_2023.jpg target="_blank"><img src=Fri_Feb_10_12_06_28_IST_2023.jpg height=200 width=200></a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//select[@id=&apos;billing-address-select&apos;]&quot;}
+  (Session info: chrome=109.0.5414.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SAYYED-ZUBAIR-A&apos;, ip: &apos;192.168.120.18&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\SYEDZU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 503b1dd8510d9904d56314b9eeee75d9
+*** Element info: {Using=xpath, value=//select[@id=&apos;billing-address-select&apos;]}
+	at base.BaseTest.select(BaseTest.java:88)
+	at testcases.CheckOutPage.selectingBillingAddress(CheckOutPage.java:16)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">testcases.CheckOutPage#selectingShippingAdd</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>planit test, Delhi_06, Delhi 110025, India</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages"><a href=Fri_Feb_10_12_06_49_IST_2023.jpg target="_blank">Screenshot link</a><br/><br><br/><a href=Fri_Feb_10_12_06_49_IST_2023.jpg target="_blank"><img src=Fri_Feb_10_12_06_49_IST_2023.jpg height=200 width=200></a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#shipping\-address\-select&quot;}
+  (Session info: chrome=109.0.5414.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SAYYED-ZUBAIR-A&apos;, ip: &apos;192.168.120.18&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\SYEDZU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 503b1dd8510d9904d56314b9eeee75d9
+*** Element info: {Using=id, value=shipping-address-select}
+	at base.BaseTest.select(BaseTest.java:88)
+	at testcases.CheckOutPage.selectingShippingAdd(CheckOutPage.java:36)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">testcases.CheckOutPage#shippingMethod</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a href=Fri_Feb_10_12_06_59_IST_2023.jpg target="_blank">Screenshot link</a><br/><br><br/><a href=Fri_Feb_10_12_06_59_IST_2023.jpg target="_blank"><img src=Fri_Feb_10_12_06_59_IST_2023.jpg height=200 width=200></a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@value = &apos;Next Day Air___Shipping.FixedRate&apos;]&quot;}
+  (Session info: chrome=109.0.5414.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SAYYED-ZUBAIR-A&apos;, ip: &apos;192.168.120.18&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\SYEDZU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 503b1dd8510d9904d56314b9eeee75d9
+*** Element info: {Using=xpath, value=//input[@value = &apos;Next Day Air___Shipping.FixedRate&apos;]}
+	at base.BaseTest.click(BaseTest.java:69)
+	at testcases.CheckOutPage.shippingMethod(CheckOutPage.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">testcases.CheckOutPage#validatePaymentMsg</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><a href=Fri_Feb_10_12_07_19_IST_2023.jpg target="_blank">Screenshot link</a><br/><br><br/><a href=Fri_Feb_10_12_07_19_IST_2023.jpg target="_blank"><img src=Fri_Feb_10_12_07_19_IST_2023.jpg height=200 width=200></a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at testcases.CheckOutPage.validatePaymentMsg(CheckOutPage.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">testcases.CheckOutPage#doLogOut</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

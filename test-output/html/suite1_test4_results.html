@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Validate CheckOut Test</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Validate CheckOut Test</h1>
+<p>
+  Test duration: 80.172s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">testcases.CheckOutPage</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  confirmOrder
+      </td>
+  <td class="duration">
+    10.067s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        <a href=Fri_Feb_10_12_07_30_IST_2023.jpg target="_blank">Screenshot link</a>
+                                <br>
+                                <a href=Fri_Feb_10_12_07_30_IST_2023.jpg target="_blank"><img src=Fri_Feb_10_12_07_30_IST_2023.jpg height=200 width=200></a>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@value = &apos;Confirm&apos;]&quot;}<br/>
+&nbsp; (Session info: chrome=109.0.5414.75)<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;<br/>
+System info: host: &apos;SAYYED-ZUBAIR-A&apos;, ip: &apos;192.168.120.18&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\SYEDZU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: 503b1dd8510d9904d56314b9eeee75d9<br/>
+*** Element info: {Using=xpath, value=//input[@value = &apos;Confirm&apos;]}</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              org.testng.Assert.fail(Assert.java:110)<br />
+              base.BaseTest.click(BaseTest.java:69)<br />
+              testcases.CheckOutPage.confirmOrder(CheckOutPage.java:62)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:567)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:808)<br />
+              org.testng.TestRunner.run(TestRunner.java:603)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:429)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:326)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1169)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1092)<br />
+              org.testng.TestNG.run(TestNG.java:1060)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  enteringBillingAddressDetails
+      </td>
+  <td class="duration">
+    10.054s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"India", "Delhi", "Delhi_06", "110025", "1232165500"</span><br />
+    
+            <div class="testOutput">
+                        <a href=Fri_Feb_10_12_06_39_IST_2023.jpg target="_blank">Screenshot link</a>
+                                <br>
+                                <a href=Fri_Feb_10_12_06_39_IST_2023.jpg target="_blank"><img src=Fri_Feb_10_12_06_39_IST_2023.jpg height=200 width=200></a>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//select[@id=&quot;BillingNewAddress_CountryId&quot;]&quot;}<br/>
+&nbsp; (Session info: chrome=109.0.5414.75)<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;<br/>
+System info: host: &apos;SAYYED-ZUBAIR-A&apos;, ip: &apos;192.168.120.18&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\SYEDZU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: 503b1dd8510d9904d56314b9eeee75d9<br/>
+*** Element info: {Using=xpath, value=//select[@id=&quot;BillingNewAddress_CountryId&quot;]}</b></a><br />
+    <div class="stackTrace" id="exception-1">
+              org.testng.Assert.fail(Assert.java:110)<br />
+              base.BaseTest.select(BaseTest.java:88)<br />
+              testcases.CheckOutPage.enteringBillingAddressDetails(CheckOutPage.java:23)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:567)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:808)<br />
+              org.testng.TestRunner.run(TestRunner.java:603)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:429)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:326)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1169)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1092)<br />
+              org.testng.TestNG.run(TestNG.java:1060)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  paymentMethod
+      </td>
+  <td class="duration">
+    10.009s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        <a href=Fri_Feb_10_12_07_09_IST_2023.jpg target="_blank">Screenshot link</a>
+                                <br>
+                                <a href=Fri_Feb_10_12_07_09_IST_2023.jpg target="_blank"><img src=Fri_Feb_10_12_07_09_IST_2023.jpg height=200 width=200></a>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@value = &apos;Payments.CashOnDelivery&apos;]&quot;}<br/>
+&nbsp; (Session info: chrome=109.0.5414.75)<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;<br/>
+System info: host: &apos;SAYYED-ZUBAIR-A&apos;, ip: &apos;192.168.120.18&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\SYEDZU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: 503b1dd8510d9904d56314b9eeee75d9<br/>
+*** Element info: {Using=xpath, value=//input[@value = &apos;Payments.CashOnDelivery&apos;]}</b></a><br />
+    <div class="stackTrace" id="exception-2">
+              org.testng.Assert.fail(Assert.java:110)<br />
+              base.BaseTest.click(BaseTest.java:69)<br />
+              testcases.CheckOutPage.paymentMethod(CheckOutPage.java:49)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:567)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:808)<br />
+              org.testng.TestRunner.run(TestRunner.java:603)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:429)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:326)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1169)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1092)<br />
+              org.testng.TestNG.run(TestNG.java:1060)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  selectingBillingAddress
+      </td>
+  <td class="duration">
+    10.045s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"New Address"</span><br />
+    
+            <div class="testOutput">
+                        <a href=Fri_Feb_10_12_06_28_IST_2023.jpg target="_blank">Screenshot link</a>
+                                <br>
+                                <a href=Fri_Feb_10_12_06_28_IST_2023.jpg target="_blank"><img src=Fri_Feb_10_12_06_28_IST_2023.jpg height=200 width=200></a>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-3', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//select[@id=&apos;billing-address-select&apos;]&quot;}<br/>
+&nbsp; (Session info: chrome=109.0.5414.75)<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;<br/>
+System info: host: &apos;SAYYED-ZUBAIR-A&apos;, ip: &apos;192.168.120.18&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\SYEDZU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: 503b1dd8510d9904d56314b9eeee75d9<br/>
+*** Element info: {Using=xpath, value=//select[@id=&apos;billing-address-select&apos;]}</b></a><br />
+    <div class="stackTrace" id="exception-3">
+              org.testng.Assert.fail(Assert.java:110)<br />
+              base.BaseTest.select(BaseTest.java:88)<br />
+              testcases.CheckOutPage.selectingBillingAddress(CheckOutPage.java:16)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:567)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:808)<br />
+              org.testng.TestRunner.run(TestRunner.java:603)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:429)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:326)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1169)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1092)<br />
+              org.testng.TestNG.run(TestNG.java:1060)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  selectingShippingAdd
+      </td>
+  <td class="duration">
+    10.051s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"planit test, Delhi_06, Delhi 110025, India"</span><br />
+    
+            <div class="testOutput">
+                        <a href=Fri_Feb_10_12_06_49_IST_2023.jpg target="_blank">Screenshot link</a>
+                                <br>
+                                <a href=Fri_Feb_10_12_06_49_IST_2023.jpg target="_blank"><img src=Fri_Feb_10_12_06_49_IST_2023.jpg height=200 width=200></a>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-4', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#shipping\-address\-select&quot;}<br/>
+&nbsp; (Session info: chrome=109.0.5414.75)<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;<br/>
+System info: host: &apos;SAYYED-ZUBAIR-A&apos;, ip: &apos;192.168.120.18&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\SYEDZU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: 503b1dd8510d9904d56314b9eeee75d9<br/>
+*** Element info: {Using=id, value=shipping-address-select}</b></a><br />
+    <div class="stackTrace" id="exception-4">
+              org.testng.Assert.fail(Assert.java:110)<br />
+              base.BaseTest.select(BaseTest.java:88)<br />
+              testcases.CheckOutPage.selectingShippingAdd(CheckOutPage.java:36)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:567)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:808)<br />
+              org.testng.TestRunner.run(TestRunner.java:603)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:429)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:326)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1169)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1092)<br />
+              org.testng.TestNG.run(TestNG.java:1060)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  shippingMethod
+      </td>
+  <td class="duration">
+    10.021s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        <a href=Fri_Feb_10_12_06_59_IST_2023.jpg target="_blank">Screenshot link</a>
+                                <br>
+                                <a href=Fri_Feb_10_12_06_59_IST_2023.jpg target="_blank"><img src=Fri_Feb_10_12_06_59_IST_2023.jpg height=200 width=200></a>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-5', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@value = &apos;Next Day Air___Shipping.FixedRate&apos;]&quot;}<br/>
+&nbsp; (Session info: chrome=109.0.5414.75)<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;<br/>
+System info: host: &apos;SAYYED-ZUBAIR-A&apos;, ip: &apos;192.168.120.18&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\SYEDZU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: 503b1dd8510d9904d56314b9eeee75d9<br/>
+*** Element info: {Using=xpath, value=//input[@value = &apos;Next Day Air___Shipping.FixedRate&apos;]}</b></a><br />
+    <div class="stackTrace" id="exception-5">
+              org.testng.Assert.fail(Assert.java:110)<br />
+              base.BaseTest.click(BaseTest.java:69)<br />
+              testcases.CheckOutPage.shippingMethod(CheckOutPage.java:43)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:567)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:808)<br />
+              org.testng.TestRunner.run(TestRunner.java:603)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:429)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:326)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1169)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1092)<br />
+              org.testng.TestNG.run(TestNG.java:1060)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  validatePaymentMsg
+      </td>
+  <td class="duration">
+    10.032s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        <a href=Fri_Feb_10_12_07_19_IST_2023.jpg target="_blank">Screenshot link</a>
+                                <br>
+                                <a href=Fri_Feb_10_12_07_19_IST_2023.jpg target="_blank"><img src=Fri_Feb_10_12_07_19_IST_2023.jpg height=200 width=200></a>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-6', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [true] but found [false]</b></a><br />
+    <div class="stackTrace" id="exception-6">
+              org.testng.Assert.fail(Assert.java:110)<br />
+              org.testng.Assert.failNotEquals(Assert.java:1413)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:149)<br />
+              org.testng.Assert.assertEquals(Assert.java:131)<br />
+              org.testng.Assert.assertEquals(Assert.java:976)<br />
+              org.testng.Assert.assertEquals(Assert.java:1010)<br />
+              testcases.CheckOutPage.validatePaymentMsg(CheckOutPage.java:55)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:567)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:808)<br />
+              org.testng.TestRunner.run(TestRunner.java:603)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:429)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:326)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1169)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1092)<br />
+              org.testng.TestNG.run(TestNG.java:1060)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">testcases.CheckOutPage</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  doLogOut
+      </td>
+  <td class="duration">
+    1.721s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>
