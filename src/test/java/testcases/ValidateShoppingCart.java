@@ -13,11 +13,11 @@ public class ValidateShoppingCart extends BaseTest{
 		System.out.println(cartItem);
 		if(!cartItem.equals("0")) {
 			click("cartBtn_XPATH");
-			//click
-			driver.findElement(By.xpath("//input[@name = 'removefromcart']")).click();//a[contains(text(), 'Edit')]
-			driver.findElement(By.xpath("//a[contains(text(), 'Edit')]")).click();
-			driver.findElement(By.xpath("//div[@class = 'add-to-cart-panel']/input[@type = 'text']")).clear();
+			click("removeFromCart_XPATH");
+			click("cartEdit_XPATH");
+			driver.findElement(By.xpath(OR.getProperty("qtyField_XPATH"))).clear();
 			click("addToCart_XPATH");
+			driver.navigate().refresh();
 		}else
 		{
 			click("cartBtn_XPATH");
