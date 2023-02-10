@@ -6,6 +6,7 @@ import java.lang.reflect.Method;
 import java.util.Date;
 
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.testng.annotations.DataProvider;
@@ -47,5 +48,6 @@ public class TestUtil extends BaseTest {
 		FileUtils.copyFile(screenshot, new File(".\\test-output\\html\\" + fileName));
 
 	}
-
+	
+	
 }
